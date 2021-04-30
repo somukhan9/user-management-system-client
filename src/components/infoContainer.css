@@ -1,0 +1,45 @@
+.infoContainer {
+  max-width: 1024px;
+  width: 100%;
+}
+.infoContainer_table {
+  width: 100%;
+  text-align: center;
+}
+
+.infoContainer table thead tr {
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  padding: 10px;
+}
+.infoContainer table thead tr th,
+.infoContainer table tbody tr td {
+  padding: 10px;
+  border-radius: 4px;
+}
+.infoContainer table tbody tr {
+  transition: all 0.2s;
+}
+.infoContainer table tbody tr:hover {
+  background: rgb(69, 52, 221);
+  color: #fff;
+}
+.btn-edit,
+.btn-trash {
+  padding: 5px 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-edit {
+  color: rgb(38, 69, 207);
+}
+.btn-trash {
+  color: rgb(189, 21, 21);
+}
+.row .name,
+.row .gender {
+  text-transform: capitalize;
+}

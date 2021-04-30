@@ -1,0 +1,114 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+.section-title {
+  text-align: center;
+  margin-top: 20px;
+}
+.app .section-title {
+  background: rgb(38, 21, 187);
+  width: 100%;
+  padding: 20px 0;
+  color: #fff;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+}
+.app__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 250, 250, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create_user {
+  max-width: 768px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  position: relative;
+}
+.cancel-btn {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+.create-user-btn {
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.authorization {
+  margin: 20px 0;
+}
+.authorization input {
+  padding: 10px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 4px;
+  margin-right: 5px;
+  outline: none;
+}
+.authorization > button {
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.unauthorization {
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .app .section-title {
+    width: 100vw;
+  }
+}
